@@ -1,9 +1,9 @@
 module.exports = {
-    DB_URI: process.env.DB_URI,
-    AUTH0_NAMESPACE: process.env.AUTH0_NAMESPACE,
-    AUTH0_TOKEN_URL: process.env.AUTH0_TOKEN_URL,
-    AUTH0_CLIENT_ID: process.env.AUTH0_CLIENT_ID,
-    AUTH0_CLIENT_SECRET: process.env.AUTH0_CLIENT_SECRET,
-    AUTH0_AUDIENCE: process.env.AUTH0_AUDIENCE,
-    AUTH0_DOMAIM: process.env.AUTH0_DOMAIM,
+    DB_URI:'mongodb+srv://abayasaye:ADpuaGtCq9AcbK7V@portfolio-api.eb4grts.mongodb.net/',
+    AUTH0_NAMESPACE: 'https://portfolio-abayneh.com',
+    AUTH0_TOKEN_URL: 'https://dev-gyvzuyqvi0wepy63.us.auth0.com/oauth/token',
+    AUTH0_CLIENT_ID: 'yQdGHxzv6Bjpfp36G0MMV3JqllpGyygP',
+    AUTH0_CLIENT_SECRET: 't6M-EbLxTWeQ9LBhdw1tIwl4DqSt4Jq-JtygY9MUNF25E0y-pt9-uTGnTvmZUr1h',
+    AUTH0_AUDIENCE: 'https://dev-gyvzuyqvi0wepy63.us.auth0.com/api/v2/',
+    AUTH0_DOMAIM: 'https://dev-gyvzuyqvi0wepy63.us.auth0.com'
 }
