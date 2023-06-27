@@ -5,12 +5,15 @@ require("../models/portfolio");
 require("../models/blog");
 
 exports.connect = () => {
-  return mongoose.connect(config.DB_URI,{
+  try {
+    return mongoose.connect(config.DB_URI,{
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(() => {
+     .then(() => {
       console.log("MongoDB Connected");
     })
-    .catch((err) => console.error(err));
+  } catch (err) {
+    console.error(err);
+  }    
 };
