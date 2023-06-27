@@ -23,6 +23,11 @@ async function runServer() {
     res.json({ message: "wolcome to the server" });
   });
 
+  app.get("/test", (req, res) => {
+    res.json({ message: "testtesttesttesttesttesttest" });
+  });
+
+
   app.listen(PORT, (err) => {
     if (err) console.error(err);
     console.log(`server app listening on port: ${PORT}!`);
