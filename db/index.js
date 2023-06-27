@@ -5,8 +5,7 @@ require("../models/portfolio");
 require("../models/blog");
 
 exports.connect = () => {
-  return mongoose
-    .connect(config.DB_URI, {
+  return mongoose.connect(config.DB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
